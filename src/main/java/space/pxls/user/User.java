@@ -701,6 +701,9 @@ public class User {
         } else if (this.hasDonatorChatNameColor("synthwave", 4)) {
             toReturn.add("donator");
             toReturn.add("donator--synthwave");
+        } else if (this.hasDonatorChatNameColor("ace", 5)) {
+            toReturn.add("donator");
+            toReturn.add("donator--ace");
         }
         return toReturn.size() != 0 ? toReturn : null;
     }
